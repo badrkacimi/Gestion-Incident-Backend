@@ -1,0 +1,50 @@
+<div class="page-header">
+	<h1>Inscription</h1>
+</div>
+
+ <div class="alert alert-success" ng-show="register.successMessage">
+    <strong>Succès !</strong> {{register.successMessage}}
+ </div>
+
+ <div class="alert alert-danger" ng-show="register.errorMessage">
+    <strong>Erreur !</strong> {{register.errorMessage}}
+ </div>
+
+
+<form ng-submit="register.regStudent(form);">
+
+	<div class="form-group row">
+	  <div class="col-xs-3">
+	    <label>Nom* </label>
+	    <input class="form-control" type="text" placeholder="Nom" ng-model="register.form.lastName">
+	  </div>
+	  <div class="col-xs-3">
+	    <label>Prénom* </label>
+	    <input class="form-control" type="text" placeholder="Prénom" ng-model="register.form.firstName">
+	  </div>
+	  <div class="col-xs-4">
+	    <label>Date de naissance </label>
+	    <input class="form-control" type="date" ng-model="register.form.birth">
+	  </div>
+	</div>
+
+	<div class="form-group row">
+	  <div class="col-xs-3">
+	    <div class="input-group">
+	    	<label>Adresse mail</label>
+	  		<input type="email" class="form-control" placeholder="Adresse mail" aria-describedby="basic-addon1" 
+	  		ng-model="register.form.mail">
+		</div> 
+	  </div>
+	  <div class="col-xs-3">
+	    <label>CNE*</label>
+	    <input class="form-control" type="text" placeholder="Code national de l'étudiant" ng-model="register.form.cne">
+	  </div>
+	  <div class="col-xs-4">
+	    <label>CIN*</label>
+	    <input class="form-control"  type="text" placeholder="Carte d'identité nationale" ng-model="register.form.cin">
+	  </div>
+	</div>
+
+	<button type="submit" class="btn btn-primary">Valider</button>
+</form>
