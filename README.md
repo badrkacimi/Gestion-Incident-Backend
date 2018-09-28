@@ -1,5 +1,6 @@
 # Gestion-Incident-Backend
 REST APIs implemented using Java, Maven and Spring MVC. 
+Using Transfer Object Pattern DTO
 
 [Github repository for Frontend project](https://github.com/BADRKAC/Gestion-Incident-FrontEnd)
 
