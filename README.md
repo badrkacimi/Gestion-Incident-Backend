@@ -11,14 +11,14 @@ Using Transfer Object Pattern DTO
 
 - You can build the project and run the tests by running :
 
-``
-mvnw.cmd clean package
-``
+   ``
+     mvnw.cmd clean package
+   ``
 
 - Once successfully built, you can run the service by running: 
 
- ``
- mvn clean install tomcat8:run
-``
+  ``
+    mvn clean install tomcat8:run
+  ``
 
 - The API is available on port 8080
