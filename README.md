@@ -3,7 +3,9 @@
  Car incident report project 
 
 - Technical Stack :
-REST APIs implemented using Java, Maven and Spring MVC.
+
+REST APIs implemented using Java, Maven and Spring MVC, My sql, AngularJs.
+
 
 [Github repository for Frontend project](https://github.com/BADRKAC/Gestion-Incident-FrontEnd)
 
