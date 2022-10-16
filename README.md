@@ -15,6 +15,9 @@ Using Transfer Object Pattern DTO
 mvnw.cmd clean package
 ``
 
-- Once successfully built, you can run the service by running: mvn clean install tomcat8:run
+- Once successfully built, you can run the service by running: 
+ ``
+ mvn clean install tomcat8:run
+``
 
 - The API is available on port 8080
