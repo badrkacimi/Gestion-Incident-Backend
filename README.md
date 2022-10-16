@@ -1,6 +1,9 @@
 # Gestion-Incident-Backend
-REST APIs implemented using Java, Maven and Spring MVC. 
-Using Transfer Object Pattern DTO
+
+ Car incident report project 
+
+- Technical Stack :
+REST APIs implemented using Java, Maven and Spring MVC.
 
 [Github repository for Frontend project](https://github.com/BADRKAC/Gestion-Incident-FrontEnd)
 
